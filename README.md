@@ -31,4 +31,4 @@ CREATE TABLE names (
 4. Upload csv file names.csv into table names.
 5. In Command line, navigate to folder searchresultbackend and run the following command.
 `npm install && cd searchresult && npm install && cd .. && npm run dev`
-6. The application UI will start on port 3000 and backend on 8000. This is hard coded for now.
+6. The application UI will start on port 3000 and backend on 8000. This is hard coded for now. for changing this change .env file in the root folder as well as in the searchresult directory. Both files will have 8000 as the port. both files should have the same PORT number.
